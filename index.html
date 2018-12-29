@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,5 +11,16 @@
 <body>
     <h1 style="text-align: center">This is my first program</h1>
     <p>This is my paragraph here.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">colum one</div>
+            <div class="col-md-10">colum two
+                <img src="panda.jpg"/>
+                <input type="text" placeholder="first input" id="inputOne"/>
+                <button class="btn btn-outline-secondary btn-lg">my button</button>
+            </div>
+            <div class="col-md-1">colum three</div>
+        </div>
+    </div>
 </body>
 </html>
